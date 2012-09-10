@@ -1,4 +1,11 @@
 <?php
+// kludge from Ryan Galgon (September 2012) of both wp-tumblr.php and tumblrOauth example (https://groups.google.com/d/msg/tumblr-api/g6SeIBWvsnE/gnWqT9jFSlEJ)
+// wp-tumblr.php
+// originally by miguel santirso, http://miguelsantirso.es
+// updated for wp 1.1 xml export format by christopher j. pilkington, http://0x1.net, 2011 oct 27
+//
+// Use at your own risk, you may want to test this with a throw-away tumblr account first.
+//
 // This script is a simple example of how to send a user off to authentication using Tumblr's OAuth
 
 // Start a session.  This is necessary to hold on to  a few keys the callback script will also need
